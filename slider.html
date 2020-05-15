@@ -19,7 +19,11 @@
     <main class="center column">
         <article>
             <h1>Slider</h1>
-            <p></p>
+            <div id="mySlider"></div>
+            <div id="sliderControls">
+                <div class="prev">Prev</div>
+                <div class="next">Next</div>
+            </div>
         </article>
     </main>
 
@@ -57,5 +61,16 @@
     </footer>
 </div>
 
+<script src="assets/js/slider.js"></script>
+<script>
+    buildSlider();
+    let controls = document.getElementById("sliderControls");
+    controls.children[0].addEventListener('click', ()=>{
+        prevSlide();
+    });
+    controls.children[1].addEventListener('click', ()=>{
+        nextSlide();
+    });
+</script>
 </body>
 </html>
