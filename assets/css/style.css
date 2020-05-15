@@ -43,6 +43,10 @@ li.active a {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -210,4 +214,19 @@ button[type="submit"] {
 
 button[type="submit"]:active {
     transform: scale(0.95);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid orange;
+}
+
+table th {
+    color: white;
+    background-color: #818B8A;
 }
