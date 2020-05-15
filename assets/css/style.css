@@ -14,9 +14,9 @@ html body {
 }
 
 .clearfix::after {
-    content: ""; /* Генерируем пустой элемент */
-    clear: both; /* Отменяем обтекание*/
-    display: block; /* Блочный элемент */
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .clear-both {
@@ -26,6 +26,11 @@ html body {
 h2 {
     font-size: 22px;
     margin: 1.5em 0;
+}
+
+li.active a {
+    color: black;
+    font-weight: 600;
 }
 
 .logo {
