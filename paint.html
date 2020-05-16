@@ -18,21 +18,28 @@
 <div class="container">
     <main class="center column">
         <article>
-            <h1>Heading</h1>
-            <p></p>
+            <h1>Paint</h1>
+            <canvas id="draw" width="490" height="220">Ваш браузер не поддерживает технологию canvas</canvas>
+            <div class="canvasControls">
+                <div class="button-like">Clear</div>
+                <input type="color" id="color">
+                <div class="range">
+                    <input type="range" value="5" min="1" max="10" id="size"> <span id="sizeIndicator">5</span>
+                </div>
+            </div>
         </article>
     </main>
 
     <nav class="left column">
         <h3>Left heading</h3>
         <ul>
-            <li class="active"><a href="index.html">Home page</a></li>
+            <li><a href="index.html">Home page</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="media.html">Media</a></li>
             <li><a href="slider.html">Slider</a></li>
             <li><a href="table.html">Table</a></li>
-            <li><a href="paint.html">Paint</a></li>
+            <li class="active"><a href="paint.html">Paint</a></li>
         </ul>
 
         <h3>Left heading</h3>
@@ -58,5 +65,6 @@
     </footer>
 </div>
 
+<script src="assets/js/paint.js"></script>
 </body>
 </html>

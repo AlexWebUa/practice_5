@@ -205,14 +205,15 @@ input, select, textarea {
     transform: rotate(45deg);
 }
 
-button[type="submit"], #sliderControls div {
+button[type="submit"], .button-like {
     cursor: pointer;
     background: #eee;
     border: none;
     padding: 15px 25px;
+    display: inline-block;
 }
 
-button[type="submit"]:active, #sliderControls div:active {
+button[type="submit"]:active, .button-like:active {
     transform: scale(0.95);
 }
 
@@ -325,4 +326,18 @@ a.slider {
     width: 50%;
     margin: auto;
     justify-content: space-between;
+}
+
+/* Paint style */
+
+#draw {
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+.canvasControls {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
