@@ -330,9 +330,8 @@ a.slider {
 
 /* Paint style */
 
-#draw {
+#draw, #canvas {
     border: 1px solid black;
-    margin-right: 50px;
 }
 
 .canvasControls {
@@ -341,3 +340,5 @@ a.slider {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Paint2 style */

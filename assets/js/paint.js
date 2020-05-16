@@ -1,5 +1,5 @@
 let canvas = document.getElementById('draw');
-let clearButton = document.getElementsByClassName('button-like')[0];
+let clearButton = document.getElementById('clear');
 let colorInput = document.getElementById('color');
 let sizeInput = document.getElementById('size');
 let sizeIndicator = document.getElementById('sizeIndicator');
